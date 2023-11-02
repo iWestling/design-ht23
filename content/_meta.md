@@ -1,5 +1,5 @@
 ---
-Logo: image/portrait.jpg
+Logo: image/logo.png
 Tagline: Isabels portfolio.
 Social:
     - title: Link till sidans github repo.
