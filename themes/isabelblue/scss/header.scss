@@ -1,0 +1,80 @@
+.header {
+    border-bottom: 4px solid $headerfooterborder;
+}
+
+.header, .site-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: $headercolor;
+}
+
+.site-header a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.title, .logo {
+    padding: 0 2.1em 0 0;
+}
+
+.title * {
+    color: #e2e5ef;
+}
+
+.title p {
+    font-style: italic;
+}
+
+.logo {
+    max-width: 175px;
+    margin-bottom: 0;
+
+    img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .title, .logo {
+        padding: 0 0.3em 0 0;
+    }
+    
+    .title {
+        min-width: 40%;
+    }
+
+    .logo {
+        padding-top: 0;
+        padding-bottom: 0;
+        max-width: 150px;
+
+        img {
+            display: block;
+            max-width: 150px;
+            height: auto;
+        }
+    }
+}
+
+.nav{
+    a {
+        font-weight: bold;
+        font-size: 1.4rem;
+        text-decoration: none;
+        padding: 0 1rem;
+        color: $font-alternative-color;
+        display: inline-block;
+        position: relative;
+    }
+
+    a:hover{
+        border-bottom: 2px solid $navhover2;
+        color: $navhover2;
+    }
+    
+    .active a{
+        border-bottom: 2px solid $navhover;
+    }
+}

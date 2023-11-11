@@ -1,0 +1,24 @@
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    color: $footertext;
+    border-top: 4px solid $headerfooterborder;
+    background-color: #1a1b1c;
+    padding: 2.1rem 6rem 1.2rem;
+}
+
+.footer {
+    a {
+        color: $footertext;
+    }
+    
+    .social {
+        font-size: 2rem;
+    }
+}
+
+.social a {
+    text-decoration: none;
+}
