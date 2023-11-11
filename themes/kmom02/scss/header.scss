@@ -1,0 +1,65 @@
+.site-header {
+    display: flex;
+    align-items: flex-start;
+}
+
+/*.header {
+    border-bottom: 4px solid $headerborder;
+}*/
+
+.header, .site-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(114, 157, 227);
+}
+
+.site-header a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.title, .logo {
+    padding: 0 2em 2em 0;
+}
+
+.title * {
+    color: #111;
+}
+
+.title p {
+    font-style: italic;
+}
+
+
+
+@media (max-width: 767px) {
+    .title, .logo {
+        padding: 0 0.4em 0.4em 0;
+    }
+
+    .title {
+        min-width: 40%;
+    }
+    
+    .logo {
+        padding-top: 0;
+    }
+}
+
+.nav{
+    a {
+        font-weight: bold;
+        font-size: 1.5rem;
+        text-decoration: none;
+        padding: 0 1.5rem;
+        color: $font-color;
+    }
+
+    a:hover{
+        border-bottom: 4px solid $navhover2
+    }
+    
+    .active a{
+        border-bottom: 4px solid $navhover
+    }
+}

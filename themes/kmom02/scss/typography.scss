@@ -1,0 +1,26 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.4;
+    color: #444;
+}
+
+p {
+    font-family: $main-font;
+    margin-bottom: 1.96rem;
+    font-size: 1.4em;
+    text-align: justify;
+    width: 64rem;
+}
+
+h1,
+h2,
+h3 {
+    font-family: $header-font;
+    margin-bottom: 1.96rem;
+    margin-top: 1.96rem;
+    font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+}

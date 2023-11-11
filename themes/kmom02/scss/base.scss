@@ -1,0 +1,42 @@
+body {
+    background-color: $background-color;
+    color: $font-color;
+}
+
+* {
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+ol, ul {
+    padding-left: 1.5em;
+}
+
+.hidden {
+    display: none !important;
+}
+
+html, body {
+    height: 100%;
+}
+
+/* Placement */
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    width: 70%;
+    padding: 1em;
+    margin: 0 auto;
+    flex: 1 0 auto;
+    background-color: #fff;
+}
+
+.header, .footer {
+    flex: 0 0 auto;
+}
