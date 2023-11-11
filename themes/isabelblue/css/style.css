@@ -6426,7 +6426,7 @@ readers do not read off random characters that represent icons */
 body {
   font-family: sans-serif;
   line-height: 1.4;
-  color: #000000;
+  color: #000;
 }
 
 p {
@@ -6507,7 +6507,7 @@ body {
 }
 
 .title, .logo {
-  padding: 0em 2.2em 0em 0em;
+  padding: 0 2.1em 0 0;
 }
 
 .title * {
@@ -6519,13 +6519,18 @@ body {
 }
 
 .logo {
-  max-width: 200px;
+  max-width: 175px;
   margin-bottom: 0;
+}
+.logo img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 @media (max-width: 767px) {
   .title, .logo {
-    padding: 0em 0.3em 0em 0em0;
+    padding: 0 0.3em 0 0;
   }
   .title {
     min-width: 40%;
@@ -6535,16 +6540,20 @@ body {
     padding-bottom: 0;
     max-width: 150px;
   }
+  .logo img {
+    display: block;
+    max-width: 150px;
+    height: auto;
+  }
 }
 .nav a {
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   text-decoration: none;
   padding: 0 1rem;
   color: #c3d3e3;
   display: inline-block;
   position: relative;
-  margin-bottom: 0;
 }
 .nav a:hover {
   border-bottom: 2px solid #6fa2f9;
@@ -6594,8 +6603,8 @@ body {
   font-size: 2rem;
   line-height: 0.7;
   letter-spacing: -3px;
-  background-color: cornflowerblue;
-  color: salmon;
+  background-color: rgb(91, 138, 226);
+  color: rgb(222, 101, 87);
   padding: 1rem;
 }
 
