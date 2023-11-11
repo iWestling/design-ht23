@@ -1,5 +1,5 @@
 ---
-Title: Isabel Westling
+Title: Isabel W
 Description: This is our index page.
 ---
 
