@@ -1,0 +1,193 @@
+.tech-article {
+    width: 60%;
+    padding: 1em;
+    margin: 0 auto;
+    flex: 0 auto;
+    padding-bottom: 2em;
+}
+
+.landingpage {
+    display: grid;
+    gap: 1em 1em;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto repeat(4, minmax(0, 90px));
+    min-width: 300px;
+}
+
+.landingpage h1 {
+    grid-column: span 3;
+    font-size: 4rem;
+    text-align: center;
+    justify-self: center;
+    grid-row: span 1;
+    letter-spacing: 1rem;
+    max-width: 100%;
+    margin: 0 auto; 
+}
+
+.landingpage h2 {
+    font-size: 1.5rem;
+}
+
+.box-css {
+    border: 1px solid #ccc;
+    background-color: #b6d0f1;
+    justify-self: center;
+    width: 100%;
+    padding: 0.7rem;
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 1;
+
+}
+
+.box-html {
+    border: 1px solid #ccc;
+    background-color: #b6d0f1;
+    justify-self: center;
+    width: 100%;
+    padding: 0.7rem;
+    grid-column: 2 / span 2;
+    grid-row: 2 / span 1;
+}
+
+.box-java {
+    border: 1px solid #ccc;
+    background-color: #b6d0f1;
+    justify-self: center;
+    width: 100%;
+    padding: 0.7rem;
+    grid-column: 1 / span 2;
+    grid-row: 3 / span 1;
+}
+
+.box-php {
+    border: 1px solid #ccc;
+    background-color: #b6d0f1;
+    justify-self: center;
+    width: 100%;
+    padding: 0.7rem;
+    grid-column: 3 / span 1;
+    grid-row: 3 / span 1;
+}
+
+.box-python {
+    border: 1px solid #ccc;
+    background-color: #b6d0f1;
+    justify-self: center;
+    width: 100%;
+    padding: 0.7rem;
+    grid-column: 1 / span 3;
+    grid-row: 4 / span 1;
+}
+
+.box-git {
+    border: 1px solid #ccc;
+    background-color: #b6d0f1;
+    justify-self: center;
+    width: 100%;
+    padding: 0.7rem;
+    grid-column: 1 / span 1;
+    grid-row: 5 / span 1;
+}
+
+.box-sqlite {
+    border: 1px solid #ccc;
+    background-color: #b6d0f1;
+    justify-self: center;
+    width: 100%;
+    padding: 0.7rem;
+    grid-column: 2 / span 2;
+    grid-row: 5 / span 1;
+}
+
+@media (max-width: 1412px) {
+    .landingpage h1 {
+        font-size: 3rem;
+        letter-spacing: 0.9rem;
+    }
+}
+
+@media (max-width: 1180px) {
+    .landingpage h1 {
+        font-size: 2.5rem;
+        letter-spacing: 0.9rem;
+    }
+}
+
+@media (max-width: 1028px) {
+    .landingpage h1 {
+        font-size: 2rem;
+        letter-spacing: 0.6rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .landingpage h1 {
+        font-size: 2.3rem;
+        letter-spacing: 0.5rem;
+        align-self: center;
+        margin: 0 auto; 
+    }
+
+    .landingpage {
+        display: grid;
+        gap: 1em 1em;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(8, 1fr);
+    }
+
+    .box-css {
+        grid-column: 1 / span 3;
+        grid-row: 2 / span 1;
+    }
+
+    .box-html {
+        grid-column: 1 / span 3;
+        grid-row: 3 / span 1;
+    }
+
+    .box-java {
+        grid-column: 1 / span 3;
+        grid-row: 4 / span 1;
+    }
+
+    .box-php {
+        grid-column: 1 / span 3;
+        grid-row: 5 / span 1;
+    }
+
+    .box-python {
+        grid-column: 1 / span 3;
+        grid-row: 6 / span 1;
+    }
+
+    .box-git {
+        grid-column: 1 / span 3;
+        grid-row: 7 / span 1;
+    }
+    
+    .box-sqlite {
+        grid-column: 1 / span 3;
+        grid-row: 8 / span 1;
+    }
+}
+
+/*.single-technology {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.tech-boxes {
+    width: 30%;
+}
+
+.tech-menu {
+    width: 30%;
+}
+
+.tech-content {
+    width: 60%;
+}
+*/
