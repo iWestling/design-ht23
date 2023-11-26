@@ -7,10 +7,17 @@
     "example": "example"
   },
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "stylelint \"**/*.scss\"",
-    "style": "sass isabelblue/scss/style.scss isabelblue/css/style.css --no-source-map",
-    "style-min": "sass isabelblue/scss/style.scss isabelblue/css/style.min.css --no-source-map --style compressed"
-  },
+    "watch": "sass isabelblue/scss/style.scss:isabelblue/css/style.css isabelblue/scss/style-dark.scss:isabelblue/css/style-dark.css --no-source-map --watch",
+    "watch-min": "sass isabelblue/scss/style.scss:isabelblue/css/style.min.css isabelblue/scss/style-dark.scss:isabelblue/css/style-dark.min.css --no-source-map --watch --style compressed",
+    "style": "npm run style-light && npm run style-dark",
+    "style-min": "npm run style-light-min && npm run style-dark-min",
+    "style-dark": "sass isabelblue/scss/style-dark.scss isabelblue/css/style-dark.css --no-source-map",
+    "style-dark-min": "sass isabelblue/scss/style-dark.scss isabelblue/css/style-dark.min.css --no-source-map --style compressed",
+    "style-light": "sass isabelblue/scss/style.scss isabelblue/css/style.css --no-source-map",
+    "style-light-min": "sass isabelblue/scss/style.scss isabelblue/css/style.min.css --no-source-map --style compressed"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
