@@ -29,20 +29,27 @@
     font-size: 1.5rem;
 }
 
+.landingpage a {
+    color: #192b60;
+}
+
+.landingpage a:hover {
+    color: #325484;
+}
+
 .box-css {
     border: 1px solid #ccc;
-    background-color: #b6d0f1;
+    background-color: #a0b7de;
     justify-self: center;
     width: 100%;
     padding: 0.7rem;
     grid-column: 1 / span 1;
     grid-row: 2 / span 1;
-
 }
 
 .box-html {
     border: 1px solid #ccc;
-    background-color: #b6d0f1;
+    background-color: #a0b7de;
     justify-self: center;
     width: 100%;
     padding: 0.7rem;
@@ -52,7 +59,7 @@
 
 .box-java {
     border: 1px solid #ccc;
-    background-color: #b6d0f1;
+    background-color: #a0b7de;
     justify-self: center;
     width: 100%;
     padding: 0.7rem;
@@ -62,7 +69,7 @@
 
 .box-php {
     border: 1px solid #ccc;
-    background-color: #b6d0f1;
+    background-color: #a0b7de;
     justify-self: center;
     width: 100%;
     padding: 0.7rem;
@@ -72,7 +79,7 @@
 
 .box-python {
     border: 1px solid #ccc;
-    background-color: #b6d0f1;
+    background-color: #a0b7de;
     justify-self: center;
     width: 100%;
     padding: 0.7rem;
@@ -82,7 +89,7 @@
 
 .box-git {
     border: 1px solid #ccc;
-    background-color: #b6d0f1;
+    background-color: #a0b7de;
     justify-self: center;
     width: 100%;
     padding: 0.7rem;
@@ -92,7 +99,7 @@
 
 .box-sqlite {
     border: 1px solid #ccc;
-    background-color: #b6d0f1;
+    background-color: #a0b7de;
     justify-self: center;
     width: 100%;
     padding: 0.7rem;
