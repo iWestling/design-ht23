@@ -18,7 +18,7 @@
 }
 
 .title * {
-    color: #e2e5ef;
+    color: $titlecolor;
 }
 
 .title p {
@@ -75,6 +75,6 @@
     }
     
     .active a{
-        border-bottom: 2px solid $navhover;
+        border-bottom: 2px solid $font-alternative-color;
     }
 }
