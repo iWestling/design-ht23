@@ -47,3 +47,15 @@ body {
 .header, .footer {
     flex: 0 0 auto;
 }
+
+.rapport-page a {
+    color: $rapportlink;
+}
+
+.rapport-page a:hover {
+    color: $rapporthover;
+}
+
+.rapport-color {
+    color: $colorsquare1;
+}
