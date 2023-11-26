@@ -5,13 +5,17 @@
     justify-content: space-between;
     color: $footertext;
     border-top: 4px solid $headerfooterborder;
-    background-color: #1a1b1c;
+    background-color: $footercolor;
     padding: 2.1rem 6rem 1.2rem;
 }
 
 .footer {
     a {
         color: $footertext;
+    }
+
+    a:hover{
+        color: #728e8c;
     }
     
     .social {
