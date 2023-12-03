@@ -113,7 +113,7 @@ Summeringen är alltså att trots att alla sidor ändå upplevs som OK att besö
 Referenser
 -----------------------
 
-<a href="pagespeed.web.dev">PageSpeed Insights</a>
+<a href="https://pagespeed.web.dev/">PageSpeed Insights</a>
 
 <a href="https://moz.com/learn/seo/page-speed">Moz Page Speed</a>
 
