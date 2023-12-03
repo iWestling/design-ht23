@@ -6641,7 +6641,8 @@ code {
   padding: 0.1em 0.2em;
   border: 1px solid #ccc;
   border-radius: 0.3em;
-  background: #f5f5f5;
+  background: #d5e7fa;
+  color: rgb(19, 35, 34);
   font-family: monospace;
   font-size: 0.85rem;
   line-height: 1.9824;
