@@ -4,9 +4,27 @@
     display: flex;
     justify-content: space-between;
     color: $footertext;
+    font-family: $title-text;
     border-top: 4px solid $headerfooterborder;
-    background-color: $footercolor;
-    padding: 2.1rem 6rem 1.2rem;
+    animation: footerBackground 8s linear infinite;
+    padding: 1.7rem 6rem 0.8rem;
+    width: 100%;
+}
+
+
+@keyframes footerBackground {
+    0% {
+        background-color: #1a2446;
+    }
+    33% {
+        background-color: #1a4046;
+    }
+    66% {
+        background-color: #163c3c;
+    }
+    100% {
+        background-color: #1a2446;
+    }
 }
 
 .footer {
@@ -20,9 +38,22 @@
     
     .social {
         font-size: 2rem;
+        padding: 5px;
     }
 }
 
 .social a {
     text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .footer p {
+        display:none;
+    }
+    .social{
+        margin:auto;
+    }
+    .social a {
+        padding: 5px;
+    }
 }
