@@ -1,11 +1,26 @@
 .header {
     border-bottom: 4px solid $headerfooterborder;
+    animation: headerBackground 8s linear infinite;
+}
+
+@keyframes headerBackground {
+    0% {
+        background-color: #1a2446;
+    }
+    33% {
+        background-color: #1a4046;
+    }
+    66% {
+        background-color: #163c3c;
+    }
+    100% {
+        background-color: #1a2446;
+    }
 }
 
 .header, .site-header {
     display: flex;
     justify-content: space-between;
-    background-color: $headercolor;
 }
 
 .site-header a {
@@ -15,26 +30,35 @@
 
 .title, .logo {
     padding: 0 2.1em 0 0;
+
 }
 
 .title * {
     color: $titlecolor;
+    font-family: $title-text;
+    margin-top: 1.2rem;
+    width: 200px;
+    font-size: 2.4rem;
+    letter-spacing: 2px;
 }
 
 .title p {
     font-style: italic;
+    letter-spacing: 2px;
 }
 
 .logo {
-    max-width: 175px;
     margin-bottom: 0;
 
     img {
         display: block;
-        max-width: 100%;
+        width: 100px;
         height: auto;
     }
 }
+
+
+
 
 @media (max-width: 767px) {
     .title, .logo {
@@ -43,27 +67,25 @@
     
     .title {
         min-width: 40%;
+        padding-left: 2.5em;
+    }
+
+    .title * {
+        margin-top: 1.4rem;
+        font-size: 2.4rem;
     }
 
     .logo {
-        padding-top: 0;
-        padding-bottom: 0;
-        max-width: 150px;
-
-        img {
-            display: block;
-            max-width: 150px;
-            height: auto;
-        }
+        display: none;
     }
 }
 
 .nav{
     a {
         font-weight: bold;
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         text-decoration: none;
-        padding: 0 1rem;
+        padding: 0 0.7rem;
         color: $font-alternative-color;
         display: inline-block;
         position: relative;
@@ -78,3 +100,7 @@
         border-bottom: 2px solid $font-alternative-color;
     }
 }
+
+
+
+
