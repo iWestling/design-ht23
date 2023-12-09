@@ -57,15 +57,15 @@ body {
 
 .flex-container {
     display: flex;
-    justify-content: center; /* Center items horizontally */
-    align-items: center; /* Center items vertically */
+    justify-content: center;
+    align-items: center;
     margin: auto;
     padding: 1.5em;
 }
 
 .image-container {
-    flex: 0 0 auto; /* Do not grow, do not shrink */
-    margin-right: 3.2em; /* Adjust the margin as needed */
+    flex: 0 0 auto; 
+    margin-right: 3.2em; 
     margin-top: 2em;
 }
 
@@ -76,7 +76,7 @@ body {
 }
 
 .text-container h1 {
-    margin-bottom: 10px; /* Adjust as needed */
+    margin-bottom: 10px;
 }
 
 .intro{
