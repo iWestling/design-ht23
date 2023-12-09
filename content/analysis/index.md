@@ -10,7 +10,10 @@ Rapport
     <div class="box-css">
         <a href="%base_url%?analysis/01_colors"><b>Kmom4: Colors</b></a>
     </div>
-        <div class="box-css">
+    <div class="box-css">
         <a href="%base_url%?analysis/02_load"><b>Kmom5: Load</b></a>
+    </div>
+    <div class="box-css">
+        <a href="%base_url%?analysis/03_design_principles"><b>Kmom6: Design Principles</b></a>
     </div>
 </div>
