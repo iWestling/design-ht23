@@ -1,6 +1,6 @@
 ---
-Logo: image/logo.png
-Tagline: Isabels portfolio.
+Logo: image/logo.webp
+Tagline:
 Social:
     - title: Link till sidans github repo.
       url: https://github.com/iWestling/design-ht23
