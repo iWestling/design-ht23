@@ -7,8 +7,7 @@ Description: This is our index page.
     <div class="image-container">
         <a href="%base_url%/image/profile.webp" target="_blank" class="profile-image">
             <picture>
-                <source media="(min-width: 1440px)" srcset="%base_url%/image/profile.webp">
-                <source media="(min-width: 1200px)" srcset="%base_url%/image/profile.webp?w=488&h=800&crop-to-fit">
+                <source media="(min-width: 1340px)" srcset="%base_url%/image/profile.webp">
                 <source media="(min-width: 920px)" srcset="%base_url%/image/profile.webp?w=300&h=800&crop-to-fit&area=0,5,0,40&q=100">
                 <img src="%base_url%/image/profile.webp?w=150&h=800&crop-to-fit&area=0,5,0,50" alt="Illustration by Isabel">
             </picture>
