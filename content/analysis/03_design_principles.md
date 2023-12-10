@@ -81,6 +81,7 @@ Detta är en musikers hemsida. Syftet med webbplatsen är att ge läsaren inform
 
 När man klickar in på hemsidan kommer man direkt till en stor bild av artisten. Här har man direkt använt sig av riktning som designprincip då hon i bilden tittar upp mot hennes namn, vilket drar blicken mot navbaren. 
 Om man går in på Tour sidan får man efter en statisk bild upp en video på när hon sjunger och spelar i sitt band, vilket naturligt ger rörelse och djup i sidan. Man har sedan använt sig av mycket repetition där t.ex. alla tour dates ligger som flexbox ovanpå varandra. 
+
 För "Bio"-sidan har man sedan använt sig av balans som designprincip där man har en lång centrerad column med löpande text och två bilder på var sin sida av kolumnen. Jag kan dock tycka att borde tänkt mer på hierarki och skala som designprincip här då den löpande texten blir väldigt enformig, den hade kunnat brytas av bra med en större titel-text och sedan lite undertitlar eller citat i större format i texten för att läsaren inte ska bli uttråkad.
 
 
@@ -88,18 +89,21 @@ För "Bio"-sidan har man sedan använt sig av balans som designprincip där man 
 Analys
 -----------------------
 
-Webbsidor kommer i alla former, men av de webbsidor jag undersökt kan man genomgående se att vissa designprinciper verkar prioriteras, som riktning, balans, hierarki och negative space. Jag noterar även att nav-baren på samtliga sidor är ganska liten till storlek och inte tar upp så mycket utrymme.
-Färg används på olika sätt men verkar alla bra genomtänkta; Webbdesignern har en mer färgrann sida i bakgrund och text då jobbet ligger i kodningen medan konstnären har en ljus och lugn sida där hon istället låter färgerna i sina alster vara det som står ut. Slutligen har musikern ett mörkare, lite "coolare" färgtema med nyanser som förknippas med den musikgenre hon spelar. 
+Webbsidor kommer i alla former, men av de webbsidor jag undersökt kan man genomgående se att vissa designprinciper verkar prioriteras, som riktning, balans, hierarki och negative space. Jag noterar även att nav-baren på samtliga sidor är ganska liten till storlek och inte tar upp så mycket utrymme för att istället låta blicken dras till huvuddelen av sidan.
+
+Färg används på olika sätt men allt är bra genomtänkt; Webbdesignern har en mer färgrann sida i bakgrund och text då jobbet ligger i kodningen medan konstnären har en ljus och lugn sida där hon istället låter färgerna i sina alster vara det som står ut. Slutligen har musikern ett mörkare, lite "coolare" färgtema med nyanser som förknippas med den musikgenre hon spelar. 
 Även om hemsidorna är olika tycker jag överlag att man kan se en tanke bakom de designprinciper som använts och att de alla använts på ett bra sätt.
 
 
-<br>
 Min Hemsida
 -----------------------
 
 Min hemsida är också en sorts portfolio-hemsida där jag presenterar mig själv och olika rapporter och tekniker jag använt. Designen fungerar bra när det gäller att presentera arbeten, men det finns många förbättringar man kan göra.
+
 Det första jag tänker utifrån min hemsida är att förstasidan känns väldigt statisk och obalanserad. Allting är fokuserat till vänster och längst upp med ett stort tomrum till höger och längst ned.
-För att uppnå balans och riktning i hemsidan använder jag därför flexbox för att lägga in en bild och text brevid varandra. Bilden är en illustration jag ritat sedan tidigare som visar en kvinna vars blick riktas till höger på skärmen. Jag använder detta för att få läsarens blick att riktas mot texten till höger om bilden - Jag tillämpar här riktningsprincipen som återfanns i konstnärens och musikerns förstasidor. För att göra förstasidan ännu mer inbjudande använder jag en annan typografi för mitt namn och skalar up texten vilket även skapar en bra hierarki i sidan.
+För att uppnå balans och riktning i hemsidan använder jag därför flexbox för att lägga in en bild och text brevid varandra. Bilden är en illustration jag ritat sedan tidigare som visar en kvinna vars blick riktas till höger på skärmen. Jag använder detta för att få läsarens blick att riktas mot texten till höger om bilden som utmärker sig tack vara allt negative space runt om den - Jag tillämpar här riktningsprincipen som återfanns i konstnärens och musikerns förstasidor. 
+
+För att göra förstasidan ännu mer inbjudande använder jag en annan typografi för mitt namn och skalar up texten vilket även skapar en bra hierarki i sidan. Likt de andra hemsidorna jag tittat på gör jag även main-container där lite smalare i bredd så att allting känns mer centrerat i mitten med mer negative space runt om. 
 För att uppnå ännu lite mer rörelse på sidan gör jag som webbdesignerns hemsida där han har en rörlig bakgrund. Jag använder keyframes för att få headern och footern att skifta smakfullt mellan en grön och blå ton. Jag lägger även till lite rörelse i galleriet genom en shake-rörelse när man hoovrar över en bild. 
 
 Då alla hemsidor jag undersökt har en ganska inkognito nav-bar gör jag slutligen min nav-bar lite mindre i storlek och tar bort tagline-texten under titeln då den var onödig. Nu känns headern lite mindre rörig och blicken kan lättare fokusera på main-delen av sidan där allt innehåll ligger.
