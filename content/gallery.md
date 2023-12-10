@@ -11,7 +11,7 @@ Template: gallery
                 <picture>
                     <source media="(min-width: 1050px)" srcset="%base_url%/image/kmom05/cat1.webp?w=300&h=300&crop-to-fit">
                     <source media="(min-width: 767px)" srcset="%base_url%/image/kmom05/cat1.webp?w=200&h=200&crop-to-fit&q=30">
-                    <img src="%base_url%/image/kmom05/cat1.webp?w=400&h=200&crop-to-fit&area=0,0,20,0&q=100" alt="A cat">
+                    <img src="%base_url%/image/kmom05/cat1.webp?w=534&h=266&crop-to-fit&area=0,0,25,0" alt="A cat">
                 </picture>
             </a>
         </div>
@@ -22,7 +22,7 @@ Template: gallery
                 <picture>
                     <source media="(min-width: 1050px)" srcset="%base_url%/image/kmom05/cat2.webp?w=300&h=300&crop-to-fit">
                     <source media="(min-width: 767px)" srcset="%base_url%/image/kmom05/cat2.webp?w=200&h=200&crop-to-fit&q=30">
-                    <img src="%base_url%/image/kmom05/cat2.webp?w=400&h=200&crop-to-fit&area=0,0,20,0&q=100" alt="A cat">
+                    <img src="%base_url%/image/kmom05/cat2.webp?w=534&h=266&crop-to-fit&area=0,0,25,0" alt="A cat">
                 </picture>
             </a>
         </div>
@@ -33,7 +33,7 @@ Template: gallery
                 <picture>
                     <source media="(min-width: 1050px)" srcset="%base_url%/image/kmom05/cat3.webp?w=300&h=300&crop-to-fit">
                     <source media="(min-width: 767px)" srcset="%base_url%/image/kmom05/cat3.webp?w=200&h=200&crop-to-fit&q=30">
-                    <img src="%base_url%/image/kmom05/cat3.webp?w=400&h=200&crop-to-fit&area=0,0,20,0&q=100" alt="A cat">
+                    <img src="%base_url%/image/kmom05/cat3.webp?w=534&h=266&crop-to-fit&area=0,0,25,0" alt="A cat">
                 </picture>
             </a>
         </div>
@@ -44,7 +44,7 @@ Template: gallery
                 <picture>
                     <source media="(min-width: 1050px)" srcset="%base_url%/image/kmom05/cat4.webp?w=300&h=300&crop-to-fit">
                     <source media="(min-width: 767px)" srcset="%base_url%/image/kmom05/cat4.webp?w=200&h=200&crop-to-fit&q=30">
-                    <img src="%base_url%/image/kmom05/cat4.webp?w=400&h=200&crop-to-fit&area=0,0,20,0&q=100" alt="A cat">
+                    <img src="%base_url%/image/kmom05/cat4.webp?w=534&h=266&crop-to-fit&area=0,0,25,0" alt="A cat">
                 </picture>
             </a>
         </div>
@@ -55,7 +55,7 @@ Template: gallery
                 <picture>
                     <source media="(min-width: 1050px)" srcset="%base_url%/image/kmom05/cat5.webp?w=300&h=300&crop-to-fit">
                     <source media="(min-width: 767px)" srcset="%base_url%/image/kmom05/cat5.webp?w=200&h=200&crop-to-fit&q=30">
-                    <img src="%base_url%/image/kmom05/cat5.webp?w=400&h=200&crop-to-fit&area=0,0,20,0&q=100" alt="A cat">
+                    <img src="%base_url%/image/kmom05/cat5.webp?w=534&h=266&crop-to-fit&area=0,0,25,0" alt="A cat">
                 </picture>
             </a>
         </div>
@@ -66,7 +66,7 @@ Template: gallery
                 <picture>
                     <source media="(min-width: 1050px)" srcset="%base_url%/image/kmom05/cat6.webp?w=300&h=300&crop-to-fit">
                     <source media="(min-width: 767px)" srcset="%base_url%/image/kmom05/cat6.webp?w=200&h=200&crop-to-fit&q=30">
-                    <img src="%base_url%/image/kmom05/cat6.webp?w=400&h=200&crop-to-fit&area=0,0,20,0&q=100" alt="A cat">
+                    <img src="%base_url%/image/kmom05/cat6.webp?w=534&h=266&crop-to-fit&area=0,0,25,0" alt="A cat">
                 </picture>
             </a>
         </div>
